@@ -1,24 +1,22 @@
 {
   "compilerOptions": {
-    "preserveWatchOutput": true,
-    "rootDir": "src",
-    "outDir": "./dist/types",
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "incremental": true,
-    "target": "ES2019",
-    "module": "ES2020",
-    "jsx": "react",
-    "sourceMap": true,
-    "composite": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
     "strict": true,
-    "noImplicitAny": true,
-    "moduleResolution": "Node",
-    "baseUrl": "./packages",
-    "esModuleInterop": true,
-    "skipLibCheck": false,
     "forceConsistentCasingInFileNames": true,
-    "typeRoots": ["node_modules/@types"]
+    "declaration": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./packages",
+    "rootDir": "src"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }
