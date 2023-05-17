@@ -2427,6 +2427,15 @@
     blurhash "^1.1.5"
     sharp "^0.30.7"
 
+"@mux/mux-player-react@>=1.0.0-beta.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@mux/mux-player-react/-/mux-player-react-1.11.0.tgz#a5282ce2dead20c1bcc55c1d7abdfbd28876e71c"
+  integrity sha512-OtdW0XMvg2wDJ+yZG27xPJCNrAm/j2itMrp/xd/eT++rueL2wjMTThrB/26HG2vL64MVF7chcCsGCH1xgWy+PA==
+  dependencies:
+    "@mux/mux-player" "1.11.0"
+    "@mux/playback-core" "0.18.1"
+    prop-types "^15.7.2"
+
 "@mux/upchunk@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@mux/upchunk/-/upchunk-3.2.0.tgz#93b20675e9d03ba595c28ffca68a50fda699fee8"
@@ -15358,6 +15367,11 @@ typescript@*, typescript@^4.9.4:
   version "4.9.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
   integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
+
+typescript@^4.9.5:
+  version "4.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
   version "5.0.0-dev.20230103"
