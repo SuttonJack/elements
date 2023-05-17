@@ -1,6 +1,6 @@
 {
   "name": "mh-mux-player-react",
-  "version": "1.12.1",
+  "version": "1.12.2",
   "description": "RSC compatible version of '@mux/mux-player-react'",
   "type": "module",
   "exports": {
