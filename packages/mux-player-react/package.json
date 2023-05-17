@@ -1,7 +1,7 @@
 {
-  "name": "@mux/mux-player-react",
-  "version": "1.11.0",
-  "description": "An open source Mux player for React that Just Works™",
+  "name": "mh-mux-player-react",
+  "version": "2.0.0",
+  "description": "RSC compatible version of '@mux/mux-player-react'",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.mjs",
   "exports": {
@@ -28,10 +28,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/muxinc/elements",
+    "url": "https://github.com/SuttonJack/elements",
     "directory": "packages/mux-player-react"
   },
-  "author": "Mux, Inc.",
   "license": "MIT",
   "scripts": {
     "clean": "shx rm -rf dist/",
